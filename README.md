@@ -1,1 +1,1 @@
-# passgen
+# Passwoed generator in javascript
