@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PasswordGenerator</title>
+	<link href="css/style.css" rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+<body>
+	<section class="fst-layout">
+			<div class="wrap">
+				<div class="form">
+					<form name="pgenerate">
+					<p class="title">Введите длину пароля:</p>
+					 <input type="text" id="thelength" name="thelength" size=3 value="9"><br/>
+					<input type="button" class="roll-button" value="Generate Password" onclick="document.getElementById('output').value = generateRandomPassword(document.getElementById('thelength').value);"><br/>
+					<input type="text" class="inputstyle" size=18 id="output" name="output"><br />
+					</form>
+				</div>
+			</div>
+	</section>
+<script src="../passgen/js/script.js"></script>
+</body>
+</html>
